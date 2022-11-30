@@ -1,0 +1,3 @@
+USERNAME - admin
+EMAIL - saltanatkhamzina6@gmail.com
+PASSWORD - admin
