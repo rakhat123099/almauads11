@@ -13,6 +13,6 @@ class Migration(migrations.Migration):
         migrations.AddField(
             model_name='ad',
             name='category',
-            field=models.CharField(choices=[('Lost', 'Lost'), ('Roommates', 'Roommates'), ('Job', 'Job'), ('Vacancies', 'Vacancies'), ('Events', 'Events'), ('Services', 'Services'), ('Garagesale', 'Garagesale'), ('Other', 'Other')], default='Other', max_length=255),
+            field=models.CharField(choices=[('Lost', 'Lost'), ('Roommates', 'Roommates'), ('Anonym message', 'Job'), ('Vacancies', 'Vacancies'), ('Events', 'Events'), ('Services', 'Services'), ('Garagesale', 'Garagesale'), ('Other', 'Other')], default='Other', max_length=255),
         ),
     ]
